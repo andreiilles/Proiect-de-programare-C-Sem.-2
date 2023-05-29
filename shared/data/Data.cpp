@@ -1,11 +1,4 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include "Data.h"
-
-
-
 
 Data::Data(int zi, int luna, int an) {
     this->zi = zi;

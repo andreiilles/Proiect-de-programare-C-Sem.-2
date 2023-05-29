@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include "Absenta.h"
 
 Absenta::Absenta(Data data) {

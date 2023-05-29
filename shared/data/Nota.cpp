@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include "Nota.h"
 
 Nota::Nota(int valoare, Data data) {

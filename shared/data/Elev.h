@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #ifndef PROIECT_PP_CPP_ELEV_H
 #define PROIECT_PP_CPP_ELEV_H
 #include <string>

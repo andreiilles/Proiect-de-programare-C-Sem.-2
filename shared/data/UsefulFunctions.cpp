@@ -1,6 +1,3 @@
-//
-// Created by mario on 5/29/2023.
-//
 #include "UsefulFunctions.h"
 
 std::vector<std::string> splitString(std::string s, std::string delimiter) {

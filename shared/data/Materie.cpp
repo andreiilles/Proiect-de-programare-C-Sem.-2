@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include "Materie.h"
 
 void Materie::init(string nume, vector<Nota> note, vector<Absenta> absente, int teza) {

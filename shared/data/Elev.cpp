@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include "Elev.h"
 
 int Elev::numarElevi;

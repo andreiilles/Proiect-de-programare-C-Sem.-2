@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/28/2023.
-//
-
 #include <vector>
 #include <cstring>
 #include <string>
@@ -51,8 +47,8 @@ void adaugaElev(string prenume, string nume) {
 int main(int argc, char* argv[]) {
 
     readElevi();
-    if(strcmp(argv[0],"adauga_elev")==0)
-        adaugaElev(argv[1],argv[2]);
+    if(strcmp(argv[1],"adauga_elev")==0)
+        adaugaElev(argv[2],argv[3]);
     writeElevi();
 
 

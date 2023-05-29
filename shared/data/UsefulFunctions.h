@@ -1,7 +1,3 @@
-//
-// Created by mario on 5/29/2023.
-//
-
 #ifndef PROIECT_PP_CPP_USEFULFUNCTIONS_H
 #define PROIECT_PP_CPP_USEFULFUNCTIONS_H
 
