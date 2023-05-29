@@ -56,3 +56,15 @@ string Elev::getNume() {
     return this->nume;
 }
 
+void Elev::adaugareAbsenta(Absenta absenta) {
+    this->absente.push_back(absenta);
+}
+
+/*void Elev::getAbsente() {
+    string temp = "";
+    for (auto it = absente.begin();it!= absente.end();it++)
+    {
+        temp += it->getData();
+
+    }
+}*/

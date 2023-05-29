@@ -13,6 +13,7 @@ class Absenta {
 public:
     Absenta(Data data);
     Absenta(const Absenta &a);
+    Data getData();
 };
 
 

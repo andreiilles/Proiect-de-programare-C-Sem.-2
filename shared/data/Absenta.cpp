@@ -9,3 +9,7 @@ Absenta::Absenta(const Absenta &a) {
     this->data = a.data;
     this->motivata = a.motivata;
 }
+
+Data Absenta::getData() {
+    return this->data;
+}

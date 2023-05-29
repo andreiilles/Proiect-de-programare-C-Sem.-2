@@ -1,4 +1,4 @@
-#include <vector>
+/*#include <vector>
 #include <cstring>
 #include <string>
 #include <fstream>
@@ -6,8 +6,6 @@
 #include "../shared/data/Elev.h"
 #include "../shared/data/UsefulFunctions.h"
 using namespace std;
-
-
 
 vector<Elev> elevi;
 
@@ -53,4 +51,4 @@ int main(int argc, char* argv[]) {
 
 
     return 0;
-}
+}*/

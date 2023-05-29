@@ -5,6 +5,8 @@
 #include <iostream>
 #include "Materie.h"
 #include "Absenta.h"
+#include <string>
+#include <cstring>
 using namespace std;
 
 class Elev {
@@ -29,7 +31,8 @@ public:
     static void setNumarElevi(int n);
     static int getNumarElevi();
     friend ostream& operator<<(ostream &out, const Elev &e);
-
+    void adaugareAbsenta(Absenta absenta);
+    void getAbsente();
 };
 ostream& operator<<(ostream &out, const Elev &e);
 
