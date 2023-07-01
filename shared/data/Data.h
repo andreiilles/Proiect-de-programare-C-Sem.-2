@@ -14,12 +14,11 @@ public:
     Data(string txt);
     Data(int zi, int luna, int an);
     Data(const Data &d);
+    bool operator == (const Data& data);
+    friend ostream& operator<<(ostream output, const Data& data);
     int getZi();
     int getLuna();
     int getAn();
-    void setZi(int zi);
-    void setLuna(int luna);
-    void setAn(int an);
 };
 
 

@@ -25,28 +25,29 @@ Data::Data(string txt) {
     this->an = stoi(txt_vector[2]);
 }
 
+bool Data::operator==(const Data &data) {
+    if (this->zi==data.zi)
+        if(this->luna==data.luna)
+            if(this->an==data.an)
+                return true;
+            else
+                return false;
+}
+
+ostream &operator<<(ostream output, const Data &data) {
+    output << data.zi << "." << data.luna << "." << data.an;
+    return output;
+}
+
 int Data::getZi() {
     return this->zi;
 }
 
-int Data::getLuna() {
+int Data::getLuna()
+{
     return this->luna;
 }
 
 int Data::getAn() {
     return this->an;
-}
-
-void Data::setZi(int zi) {
-    this->zi = zi;
-}
-
-void Data::setLuna(int luna)
-{
-    this->luna = luna;
-}
-
-void Data::setAn(int an)
-{
-    this->an = an;
 }

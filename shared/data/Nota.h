@@ -11,13 +11,8 @@ class Nota {
     Data data;
 
 public:
-    Nota();
     Nota(int valoare, Data data);
     Nota(const Nota &n);
-    int getValoare();
-    Data getData();
-    void setValoare(int valoare);
-    void setData(Data data);
 };
 
 

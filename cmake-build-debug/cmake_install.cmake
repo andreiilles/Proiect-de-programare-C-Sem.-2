@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/code/cpp/PP-Github/Proiect-de-programare-C-Sem.-2
+# Install script for directory: C:/Projects/code/cpp/Proiect-de-programare-C-Sem.-2-dbdde69d1d0bdb73fac6c1628717eb0f3e51130b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Projects/code/cpp/PP-Github/Proiect-de-programare-C-Sem.-2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Projects/code/cpp/Proiect-de-programare-C-Sem.-2-dbdde69d1d0bdb73fac6c1628717eb0f3e51130b/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
