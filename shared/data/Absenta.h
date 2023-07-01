@@ -11,9 +11,13 @@ class Absenta {
     bool motivata;
 
 public:
+    Absenta();
     Absenta(Data data);
     Absenta(const Absenta &a);
     Data getData();
+    bool getMotivata();
+    void setData(Data data);
+    void setMotivata(bool motivata);
 };
 
 

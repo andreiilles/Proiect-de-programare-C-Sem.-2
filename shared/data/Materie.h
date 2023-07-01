@@ -17,10 +17,19 @@ private:
     void init(string nume, vector<Nota> note, vector<Absenta> absente, int teza);
 
 public:
+    Materie();
     Materie(string nume);
     Materie(string nume, vector<Nota> note, vector<Absenta> absente);
     Materie(string nume, vector<Nota> note, vector<Absenta> absente, int teza);
     Materie(const Materie &m);
+    string getNume();
+    vector<Nota> getNote();
+    vector<Absenta> getAbsente();
+    int getTeza();
+    void setNume(string nume);
+    void setNote(vector<Nota> note);
+    void setAbsente(vector<Absenta> absente);
+    void setTeza(int teza);
 
 };
 

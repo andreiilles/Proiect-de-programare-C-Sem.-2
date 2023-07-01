@@ -24,3 +24,29 @@ Data::Data(string txt) {
     this->luna = stoi(txt_vector[1]);
     this->an = stoi(txt_vector[2]);
 }
+
+int Data::getZi() {
+    return this->zi;
+}
+
+int Data::getLuna() {
+    return this->luna;
+}
+
+int Data::getAn() {
+    return this->an;
+}
+
+void Data::setZi(int zi) {
+    this->zi = zi;
+}
+
+void Data::setLuna(int luna)
+{
+    this->luna = luna;
+}
+
+void Data::setAn(int an)
+{
+    this->an = an;
+}

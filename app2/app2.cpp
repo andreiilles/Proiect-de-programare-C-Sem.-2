@@ -1,4 +1,5 @@
-/*#include <vector>
+
+#include <vector>
 #include <cstring>
 #include <string>
 #include <fstream>
@@ -51,4 +52,5 @@ int main(int argc, char* argv[]) {
 
 
     return 0;
-}*/
+}
+
